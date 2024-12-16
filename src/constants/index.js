@@ -308,7 +308,7 @@ const projects = [
             },
         ],
         image: personalProject,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/brakower/Personal-Portfolio-Website",
     },
 ];
 
