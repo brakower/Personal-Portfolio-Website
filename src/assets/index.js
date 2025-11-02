@@ -11,6 +11,8 @@ import malter from "./malter.jpeg";
 import teamworks from "./teamworks.jpeg";
 import ignite from "./ignite.jpeg";
 import enhanced from "./enhanced.jpeg";
+import MLB from "./MLB.jpeg";
+import medtronic from "./medtronic.jpeg";
 import sql from "./sql.png";
 import springBoot from "./springBoot.png";
 import full from "./full.jpeg";
@@ -76,6 +78,8 @@ export {
   teamworks,
   ignite,
   enhanced,
+  MLB,
+  medtronic,
   malter,
   sql,
   springBoot,

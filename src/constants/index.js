@@ -21,6 +21,8 @@ import {
     angular,
     github,
     teamworks,
+    medtronic,
+    MLB,
     ignite,
     enhanced,
     malter,
@@ -43,9 +45,14 @@ export const navLinks = [
         title: "Work",
     },
     {
+        id: "projects",
+        title: "Projects",
+    },
+
+    {
         id: "contact",
         title: "Contact",
-    },
+    },  
 ];
 
 const services = [
@@ -170,6 +177,34 @@ const technologies = [
 const experiences = [
     {
         title: "Software Engineer Intern",
+        company_name: "Major League Baseball",
+        icon: MLB,
+        iconBg: "#383E56",
+        date: "Jan 2025 - May 2025",
+        points: [
+            "***Project #1: MLB Mini Draft Tracker***",
+            "Built and shipped the MLB Mini Draft Tracker (screenshots included), seen by 3.5M+ users across desktop and web." ,
+            "Contributed updates to the component design and config system that supported a 49% increase in unique users (~2.5M) and a 61% boost in traffic during the 2025 MLB Draft." ,
+            "By the numbers: 8M+ pick impressions and ~6M picks viewed on desktop.",
+            "***Project #2: RFC & Config Architecture***",
+            "Co-authored a cross-functional RFC for a new configs.json system—a single source of truth powering all MLB/MiLB club sites, league pages, and marketing sites.", 
+            "Led discussions with stakeholders on project structures, URL routing strategies, and scalable config formats to support future growth.", 
+            "Supported digital initiatives aimed at optimizing business processes and enhancing operational efficiency within the Diabetes division."
+        ],
+    },
+    {
+        title: "Data Engineer",
+        company_name: "Medtronic",
+        icon: medtronic,
+        iconBg: "#383E56",
+        date: "Jan 2025 - May 2025",
+        points: [
+            "Improved a Visual Basic script to automate a hospital data capture process of 10,000+ patients reducing manual workload by 500%.", 
+            "Supported digital initiatives aimed at optimizing business processes and enhancing operational efficiency within the Diabetes division."
+        ],
+    },
+    {
+        title: "Software Engineer Intern",
         company_name: "Teamworks",
         icon: teamworks,
         iconBg: "#383E56",
@@ -187,15 +222,17 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "Nov 2023 - Dec 2023",
         points: [
-            "Reached out to over 1,000 businesses in London to become a part of our fund for potential investment opportunities.",
-            "Strategized with my team on how to make Crowd2Fund more appealing to both investors and clients.",
+            "Researched and evaluated early stage start-ups in longevity tech to assess alignment with IgniteXL’s investment thesis",
+            "Utilized due diligence processes to evaluate 10 other deal submissions for alignment",
+            "Designed an investment summary document presenting key information to potential investors",
+            "Received a certificate of Outstanding Completion for achieving strong evaluations",
         ],
     },
     {
         title: "Private Equity Investment Research & Data Analyst",
         company_name: "Enhanced Healthcare Partners",
         icon: enhanced,
-        iconBg: "#383E56",
+        iconBg: "#E6DEDD",
         date: "June 2023 - Aug 2023",
         points: [
             "Constructed a final presentation to company CEOs on five potential company investments, showcasing innovative strategies validated by metrics on growth, customer retention, and market competition.",
@@ -244,7 +281,7 @@ const testimonials = [
 
 const projects = [
     {
-        name: "COMP 426 Final Project",
+        name: "COMP 426: Modern Web Programming Final Project",
         description:
             "Diary Journal App developed using React for the frontend and Python and SQL for the backend. It allows users to create, view, and delete their own diary entries.",
         tags: [
@@ -269,7 +306,7 @@ const projects = [
         source_code_link: "https://github.com/rjacob02/comp426FinalProject",
     },
     {
-        name: "COMP 423 Final Project",
+        name: "COMP 423: Foundations of Software Engineering Final Project",
         description:
             "Created a tool for UNC's CSXL website that allows for students to reserve a study room that is appropriate based on the size of their group and invite their friends to the reservation.",
         tags: [
@@ -299,7 +336,7 @@ const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "tailwindcss",
+                name: "vite",
                 color: "orange-text-gradient",
             },
             {
