@@ -21,7 +21,7 @@ import fourtwentythree from "./fourtwentythree.jpg";
 import fourtwentysix from "./fourtwentysix.jpg";
 import personalProject from "./personalProject.jpg";
 import lunchorderapp from "./lunchorderapp.jpg";
-import AIagenticPic from "./AIagenticPic.jpg";
+import aiagenticpic from "./AIagenticPic.jpg";
 
 
 import css from "./tech/css.png";
@@ -91,5 +91,5 @@ export {
   fourtwentysix,
   personalProject,
   lunchorderapp,
-  AIagenticPic
+  aiagenticpic
 };

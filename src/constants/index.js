@@ -34,7 +34,7 @@ import {
     fourtwentythree,
     personalProject,
     lunchorderapp,
-    AIagenticPic
+    aiagenticpic
 } from "../assets";
 
 export const navLinks = [
@@ -300,7 +300,7 @@ const projects = [
                 color: "orange-text-gradient",
             },
         ],
-        image: AIagenticPic,
+        image: aiagenticpic,
         source_code_link: "https://github.com/brakower/Team-H",
     },
     {
