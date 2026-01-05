@@ -91,5 +91,5 @@ export {
   fourtwentysix,
   personalProject,
   lunchorderapp,
-  aiagenticpic
+  aiagenticpic,
 };

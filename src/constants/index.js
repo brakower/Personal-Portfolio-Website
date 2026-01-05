@@ -34,7 +34,7 @@ import {
     fourtwentythree,
     personalProject,
     lunchorderapp,
-    aiagenticpic
+    aiagenticpic,
 } from "../assets";
 
 export const navLinks = [
