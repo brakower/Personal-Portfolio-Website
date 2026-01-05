@@ -33,6 +33,8 @@ import {
     fourtwentysix,
     fourtwentythree,
     personalProject,
+    lunchorderapp,
+    AIagentic
 } from "../assets";
 
 export const navLinks = [
@@ -281,9 +283,51 @@ const testimonials = [
 
 const projects = [
     {
-        name: "COMP 426: Modern Web Programming Final Project",
+        name: "Mentored Research: Agentic AI Code Grader",
         description:
-            "Diary Journal App developed using React for the frontend and Python and SQL for the backend. It allows users to create, view, and delete their own diary entries.",
+            "A mobile/web lunch ordering application built with Next.js and Supabase, featuring real-time order tracking, role-based kitchen controls, customer + kitchen dashboards, and PWA support.",
+        tags: [
+            {
+                name: "typescript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "postgreSQL",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: AIagentic,
+        source_code_link: "https://github.com/brakower/Team-H",
+    },
+    {
+        name: "Lunch Order Application",
+        description:
+            "A modern, user-friendly web application for managing lunch orders built with Next.js, React, and TypeScript. Streamline your team's lunch ordering process with this efficient and scalable solution.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Next.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "typescript",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: lunchorderapp,
+        source_code_link: "https://github.com/brakower/Lunch-Order-App",
+    },
+    {
+        name: "Jounral/Diary App",
+        description:
+            "Full-stack application developed using React for the frontend and Python and SQL for the backend. It allows users to create, view, and delete their own diary entries.",
         tags: [
             {
                 name: "react",
@@ -306,7 +350,7 @@ const projects = [
         source_code_link: "https://github.com/rjacob02/comp426FinalProject",
     },
     {
-        name: "COMP 423: Foundations of Software Engineering Final Project",
+        name: "Room Reservation Service",
         description:
             "Created a tool for UNC's CSXL website that allows for students to reserve a study room that is appropriate based on the size of their group and invite their friends to the reservation.",
         tags: [

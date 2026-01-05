@@ -20,6 +20,8 @@ import frontend from "./frontend.png";
 import fourtwentythree from "./fourtwentythree.jpg";
 import fourtwentysix from "./fourtwentysix.jpg";
 import personalProject from "./personalProject.jpg";
+import lunchorderapp from "./lunchorderapp.jpg";
+import AIagentic from "./AIagenticPic.jpg";
 
 
 import css from "./tech/css.png";
@@ -88,4 +90,6 @@ export {
   fourtwentythree,
   fourtwentysix,
   personalProject,
+  lunchorderapp,
+  AIagentic
 };
