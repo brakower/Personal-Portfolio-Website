@@ -4,6 +4,8 @@ A personal 3D portfolio website built with React, Vite, Tailwind CSS and React T
 
 This repository contains a small single-page portfolio showcasing interactive 3D canvas components, projects, and contact information.
 
+Can be found online here: https://www.bennyrakower.com/
+
 ## Features
 
 - Interactive 3D canvas scenes (Earth, Computer, Ball, Stars)
