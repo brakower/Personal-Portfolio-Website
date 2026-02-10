@@ -35,6 +35,7 @@ import {
     personalProject,
     lunchorderapp,
     aiagenticpic,
+    superbowlboxespic
 } from "../assets";
 
 export const navLinks = [
@@ -282,6 +283,48 @@ const testimonials = [
 ];
 
 const projects = [
+    // {
+    //     name: "Super Bowl Poll Application",
+    //     description:
+    //         "A full-stack Ruby on Rails application for running a real-time 2026 Super Bowl poll (Seahawks or Patriots). Features secure vote casting with duplicate prevention, live result updates using Hotwire, and a production-ready architecture.",
+    //     tags: [
+    //         {
+    //             name: "ruby-on-rails",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "hotwire",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "postgresql",
+    //             color: "orange-text-gradient",
+    //         },
+    //     ],
+    //     image: superbowlboxespic,
+    //     source_code_link: "https://github.com/brakower/Super-Bowl-2026-Poll",
+    // },
+    {
+        name: "Super Bowl Boxes Application",
+        description:
+            "A real-time, mobile-friendly web application for running a classic 10×10 Super Bowl squares pool. Built with React, TypeScript, Redux Toolkit, and Supabase, featuring live square claiming and synchronized state across devices.",
+        tags: [
+            {
+            name: "react",
+            color: "blue-text-gradient",
+            },
+            {
+            name: "typescript",
+            color: "green-text-gradient",
+            },
+            {
+            name: "redux-toolkit",
+            color: "orange-text-gradient",
+            }
+        ],
+        image: superbowlboxespic,
+        source_code_link: "https://github.com/brakower/Super-Bowl-Boxes",
+    },
     {
         name: "Mentored Research: Agentic AI Code Grader",
         description:
